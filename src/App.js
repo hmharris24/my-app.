@@ -5,7 +5,7 @@ import Weather from "./Weather";
 
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <Weather />
