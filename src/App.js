@@ -2,7 +2,6 @@ import React from "react";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import Weather from "./Weather";
-import Forecast from "./Forecast";
 
 import "./App.css";
 
@@ -11,7 +10,6 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Weather defaultCity="Paris" />
-        <Forecast />
       </div>
       <span className="footer">
         This project was coded by Holly Meyers and is
