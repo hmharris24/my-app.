@@ -11,7 +11,7 @@ export default function Weather() {
     imgUrl: "https://ssl.gstatic.com/onebox/weather/64/sunny.png",
     feelsLike: "62",
     humidity: "40",
-    wind: "10"
+    wind: "10",
   };
 
   return (
@@ -67,3 +67,4 @@ export default function Weather() {
       </div>
     </div>
   );
+}
