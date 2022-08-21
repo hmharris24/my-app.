@@ -8,7 +8,10 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      <Weather />
+      <div className="container">
+        <Weather defaultCity="Paris" />
+        <Forecast />
+      </div>
       <span className="footer">
         This project was coded by Holly Meyers and is
         <a href="https://github.com/hmharris24/my-app." target="blank">
