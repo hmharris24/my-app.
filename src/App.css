@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url("my-app./public/images/cloud-image.webp");
+  background-image: url("../images/cloud-image.webp");
   background-size: cover;
   font-family: arial, sans-serif;
 }
